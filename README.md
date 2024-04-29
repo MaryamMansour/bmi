@@ -1,6 +1,6 @@
-# BMI Calculator App
+# BMI App
 
-This Flutter application allows users to calculate their Body Mass Index (BMI) and store their BMI records using Firebase Authentication and Firestore. The app follows the MVC (Model-View-Controller) architecture for better code organization.
+This Flutter application allows users to calculate their Body Mass Index (BMI) and store their BMI records using Firebase Authentication and Firestore.  The app follows the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability. Since it's a simple app, no state management libraries were used just handling stateful widgets were enough.
 
 ## Features
 
@@ -11,8 +11,6 @@ This Flutter application allows users to calculate their Body Mass Index (BMI) a
 - **View Records by Time**: Users can view their BMI records sorted by time.
 
 ## Architecture
-
-The app follows the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability.
 
 - **Model**: Handles data-related logic and interacts with Firestore for BMI records.
 - **View**: Displays UI elements and handles user interactions.
