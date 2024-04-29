@@ -1,16 +1,25 @@
-# bmi
+# BMI Calculator App
 
-A new Flutter project.
+This Flutter application allows users to calculate their Body Mass Index (BMI) and store their BMI records using Firebase Authentication and Firestore. The app follows the MVC (Model-View-Controller) architecture for better code organization.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **BMI Calculation**: Users can calculate their BMI by entering their height and weight.
+- **Firebase Authentication**: Users can sign in anonymously to use the app.
+- **Firestore Database**: User BMI records are stored in Firestore for future reference.
+- **Edit and Delete Records**: Users can edit or delete their BMI records.
+- **View Records by Time**: Users can view their BMI records sorted by time.
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app follows the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Model**: Handles data-related logic and interacts with Firestore for BMI records.
+- **View**: Displays UI elements and handles user interactions.
+- **Controller**: Orchestrates communication between the Model and View, and contains business logic.
+
+
+
+## Branching Methodology
+
+The app development process follows a branching methodology in Git, where each feature is implemented in a separate branch and then merged into the master branch after completion.
