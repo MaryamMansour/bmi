@@ -21,3 +21,6 @@ This Flutter application allows users to calculate their Body Mass Index (BMI) a
 ## Branching Methodology
 
 The app development process follows a branching methodology in Git, where each feature is implemented in a separate branch and then merged into the master branch after completion.
+
+
+for screenshots , check out Merges with the master branch 
