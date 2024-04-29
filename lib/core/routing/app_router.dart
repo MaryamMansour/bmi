@@ -7,6 +7,7 @@ class AppRouter {
 
     final arguments = settings.arguments;
 
+
     switch (settings.name) {
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => HomeScreen());
