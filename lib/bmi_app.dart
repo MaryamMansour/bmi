@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:my_doctor/core/routing/app_router.dart';
-import 'package:my_doctor/core/theming/colors.dart';
-
 import 'core/routing/app_router.dart';
 import 'core/routing/routes.dart';
 import 'core/theming/colors.dart';
@@ -17,7 +14,7 @@ class BmiApp extends StatelessWidget {
       designSize: const Size(375,812),
       minTextAdapt: true,
       child: MaterialApp(
-        title: 'Doc App',
+        title: 'BMI App',
         theme: ThemeData(
           primaryColor: ColorsManager.mainBlue,
           scaffoldBackgroundColor: Colors.white,
