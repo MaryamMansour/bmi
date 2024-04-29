@@ -10,18 +10,18 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn> {
-  final AuthController _auth = AuthController();
   final TextEditingController _nameController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: ColorsManager.mainBlue,
         elevation: 0.0,
         title: Text(
-          'Sign in to Brew Crew',
+          'Sign in to Bre Crew',
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -59,8 +59,9 @@ class _SignInState extends State<SignIn> {
                 padding: EdgeInsets.symmetric(vertical: 15.0, horizontal: 15.0),
               ),
               onPressed: () async {
-                await _auth.signInAnon();
-                Navigator.pushNamed(context, Routes.homeScreen);
+                await AuthController.signInAnon();
+                Navigator.pushNamed(context, Routes.calculationScreen);
+
               },
               child: Text(
                 'Sign in as Guest',

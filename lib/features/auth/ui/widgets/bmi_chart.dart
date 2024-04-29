@@ -31,7 +31,7 @@ class BMIChart  extends StatelessWidget {
                   'Underweight',
                   style: TextStyle(
                     fontSize: 14.0,
-                    color: Colors.red, // Change color to red for Underweight
+                    color: Colors.red,
                   ),
                 ),
                 SizedBox(height: 5.0),
@@ -40,7 +40,7 @@ class BMIChart  extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.red, // Change color to red for Underweight
+                    color: Colors.red,
                   ),
                 ),
               ],
@@ -54,7 +54,7 @@ class BMIChart  extends StatelessWidget {
                   'Normal',
                   style: TextStyle(
                     fontSize: 14.0,
-                    color: Colors.green, // Change color to green for Normal
+                    color: Colors.green,
                   ),
                 ),
                 SizedBox(height: 5.0),
@@ -63,7 +63,7 @@ class BMIChart  extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.green, // Change color to green for Normal
+                    color: Colors.green,
                   ),
                 ),
               ],
@@ -77,7 +77,7 @@ class BMIChart  extends StatelessWidget {
                   'Overweight',
                   style: TextStyle(
                     fontSize: 14.0,
-                    color: Colors.orange, // Change color to orange for Overweight
+                    color: Colors.orange,
                   ),
                 ),
                 SizedBox(height: 5.0),
@@ -86,7 +86,7 @@ class BMIChart  extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.orange, // Change color to orange for Overweight
+                    color: Colors.orange,
                   ),
                 ),
               ],
@@ -100,7 +100,7 @@ class BMIChart  extends StatelessWidget {
                   'Obese',
                   style: TextStyle(
                     fontSize: 14.0,
-                    color: Colors.redAccent, // Change color to redAccent for Obese
+                    color: Colors.redAccent,
                   ),
                 ),
                 SizedBox(height: 5.0),
@@ -109,7 +109,7 @@ class BMIChart  extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.redAccent, // Change color to redAccent for Obese
+                    color: Colors.redAccent,
                   ),
                 ),
               ],
