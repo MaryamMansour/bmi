@@ -16,12 +16,13 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: ColorsManager.mainBlue,
         elevation: 0.0,
         title: Text(
-          'Sign in to Brew Crew',
+          'Sign in to Bre Crew',
           style: TextStyle(color: Colors.white),
         ),
       ),
